@@ -1,0 +1,272 @@
+@media screen and (max-width: 1430px) {
+    .header__right-ul {
+        display: none !important;
+    }
+
+    .header__right-menu {
+        display: flex !important;
+    }
+
+    .main__footer-container-img {
+        max-height: 400px;
+    }
+}
+
+@media screen and (max-width: 1250px) {   
+    .overlay__container {
+        width: 100%;
+    }
+
+    .overlay__contact {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .menu-page-title {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .overlay__container {
+        justify-content: center;
+        height: 100%;
+    }
+
+    .overlay__container {
+        padding-top: 50px;
+    }
+
+    .overlay__contact {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .main__section {
+        width: 80%;
+    }
+
+    .footer-img {
+        display: none;
+    }
+
+    .footer__bottom-container {
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .footer__bottom-container ul {
+        margin: 0;
+    }
+
+    .footer__bottom-link {
+        position: absolute;
+        bottom: -40px;
+        margin: 0; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main__nav ul {
+        position: relative;
+    }
+
+    .main__nav span {
+        display: none;
+    }
+
+    .main__nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main__nav li, .main__nav a {
+        font-size: 1.4rem;
+    }
+
+    .main__nav li:last-child {
+        position: absolute;
+        bottom: -40px;
+        text-align: center;
+    }
+
+    .main__backgroundImages {
+        margin-top: 50px;
+    }
+
+    .overlay {
+        justify-content: center;
+    }
+
+    .overlay__container {
+        width: 80%;
+    }
+
+    .overlay__nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .overlay__contact {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__left {
+        margin-left: 10px;
+    }
+
+    .header__right {
+        max-width: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header__right-menu {
+        left: 10px;
+        min-width: 48px;
+    }
+
+    .header__right-ul.active {
+        right: 8px;
+    }
+
+    .main__section {
+        width: 90%;
+    }
+    
+    .main__footer-container-img {
+        max-height: 300px;
+    }
+
+    .main__section-chapter1-h1::after {
+        left: -12px; 
+    }
+
+    .footer__top {
+        padding: 20px 0;
+    }
+
+    .footer__top-nav ul {
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5;
+        width: 100%;
+        min-width: auto;
+    }
+
+    .footer__center-nav ul {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer__bottom-container nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer__bottom-container ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 20px;
+        line-height: 1.3;
+    }
+
+    .footer__bottom-container li {
+        margin-right: 20px;
+    }
+
+    .overlay__container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__center-logo {
+        width: 82px;
+        height: 82px;
+        margin-top: 60px;
+    }
+
+    .logo-modification {
+        width: 60px;
+        height: 60px;
+        transform: translateY(-0.5rem);
+    }
+
+    .header__center-twitch {
+        margin-right: 0px;
+    }
+
+    .header__center-search {
+        margin-left: 0px;
+    }
+
+    main {
+        padding-top: 20px;
+    }
+
+    .main__nav a {
+        padding: 0 4px;
+    }
+
+    .main__backgroundImages {
+        height: 350px;
+    }
+
+    .main__footer-container-img {
+        margin: 0;
+    }
+
+    .overlay__nav {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .overlay__nav a {
+        font-size: 2rem;
+    }
+
+    .overlay__contact {
+        width: 90%;
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .header__left {
+        margin-left: 0px;
+    }
+
+    .header__right-menu {
+        left: 20px;
+    }
+
+    .header__right-ul.active {
+        right: -5px;
+    }
+
+    .main__backgroundImages {
+        height: 250px;
+    }
+
+    .main__section-header-h1 h1 {
+        font-size: 2.6rem;
+    }
+
+    .main__section-header-date {
+        margin: 50px 0;
+    }
+
+    .main__footer-container-img {
+        max-height: 200px;
+    }
+
+    .main__section-chapter1 {
+        margin-top: 40px;
+    }
+} 
