@@ -209,6 +209,7 @@ buttonOverlay.addEventListener('click', () => {
         headerRight.style.display = 'none';
         logoTwitch.style.display = 'none';
         imgSearch.style.display = 'none';
+        menuPageTitle.style.display = 'none';
     }
     else {
         buttonMenu.innerHTML = `

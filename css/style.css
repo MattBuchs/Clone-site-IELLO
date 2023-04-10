@@ -645,6 +645,7 @@ p {
     transform: translateX(100%);
     display: flex;
     align-items: center;
+    z-index: 5;
 }
 
 .overlay__container {
